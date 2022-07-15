@@ -357,12 +357,13 @@ h1 {
 @media (min-width: 1420px){
     .scoreboard {
         max-width: 1420px;
-        max-height: 95vh;
+        /* max-height: 95vh; */
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding-bottom: 10px;
         overflow: hidden;
     }
